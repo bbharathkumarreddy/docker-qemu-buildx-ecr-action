@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Docker QEMU Buildx ECR
-        uses: bbharathkumarreddy/docker-qemu-buildx-ecr-action
+        uses: bbharathkumarreddy/docker-qemu-buildx-ecr-action@v1.0
         with:
           platform: linux/arm64
           ecr-push: true
